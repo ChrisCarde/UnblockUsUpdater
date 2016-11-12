@@ -1,0 +1,15 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="background_update"
+        android:title="@string/pref_title_background" />
+
+    <ListPreference
+        android:title="@string/pref_title_background_interval"
+        android:entries="@array/pref_background_interval_titles"
+        android:entryValues="@array/pref_background_interval_values"
+        android:key="background_update_interval"
+        android:defaultValue="1"/>
+
+</PreferenceScreen>
